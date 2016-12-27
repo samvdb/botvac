@@ -1,0 +1,27 @@
+{
+  "name": "samvdb/botvac",
+  "description": "A PHP Client for Neato Botvac API",
+  "type": "library",
+  "homepage": "https://github.com/samvdb/botvac",
+  "authors": [
+    {
+      "name": "Tom Rosenback",
+      "email": "tom.rosenback@gmail.com"
+    },
+    {
+      "name": "Sam Van der Borght",
+      "email": "samvanderborght@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0"
+  },
+  "autoload": {
+    "psr-4": { "Botvac\\": "lib/Botvac/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
