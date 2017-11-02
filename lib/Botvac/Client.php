@@ -55,7 +55,7 @@ class Client
         }
 
         if ($this->token !== false) {
-            $result = Api::request($this->baseUrl . "/dashboard",
+            $result = Api::request($this->baseUrl . "/users/me/robots",
                 null,
                 "GET",
                 ["Authorization: Token token=" . $this->token]);
